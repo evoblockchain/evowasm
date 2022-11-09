@@ -1,0 +1,13 @@
+syntax = "proto3";
+package evowasm.evowasm;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "evowasm/x/evowasm/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
